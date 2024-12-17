@@ -1,0 +1,25 @@
+body, html {
+  font-family: sans-serif;
+}
+
+input {
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 7px 12px;
+  outline-color: #5907b5;
+}
+
+button {
+  font-size: 20px;
+  border-radius: 5px;
+  border: 0;
+  background: #5907b5;
+  color: #fff;
+  padding: 12px 26px;
+  cursor: pointer;
+
+  &:hover {
+    background: #561a9a;
+  }
+}
